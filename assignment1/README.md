@@ -58,4 +58,4 @@ Automate the deployment of a scalable web application in Azure using Terraform.
 ![database](https://github.com/AlessandroFazenda/velozient/blob/main/assignment1/images/database.png?raw=true)
 ![load_balancers](https://github.com/AlessandroFazenda/velozient/blob/main/assignment1/images/load_balancers.png?raw=true)
 ![network](https://github.com/AlessandroFazenda/velozient/blob/main/assignment1/images/network.png?raw=true)
-![computes](https://github.com/AlessandroFazenda/velozient/blob/main/assignment1/images/computes.png?raw=true)
+![compute](https://github.com/AlessandroFazenda/velozient/blob/main/assignment1/images/compute.png?raw=true)
