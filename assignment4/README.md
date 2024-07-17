@@ -46,7 +46,35 @@ Automate the backup and restore process for an Azure SQL Database using Azure CL
 - `00 10 * * * azuser python backup.py --action RESTORE --resource_group RESOURCE_GROUP --server_name SERVER_NAME --database_name DATABASE_NAME --storage_account_name STORAGE_ACCOUNT_NAME --container_name CONTAINER_NAME --storage_account_key STORAGE_ACCOUNT_KEY --backup_file_name BACKUP_FILE_NAME --admin_user ADMIN_USER --admin_password ADMIN_PASSWORD`
 
 ## Backup log:
-<pre></pre>
+<pre>{
+  "blobUri": "https://velomystorageaccount.blob.core.windows.net/dbbackup/velo-py-db_backup_20240717164109.bacpac",
+  "databaseName": "velo-py-db",
+  "errorMessage": null,
+  "id": "04a74999-41e1-419e-a48b-bb3a40101f32",
+  "lastModifiedTime": "7/17/2024 7:39:47 PM",
+  "name": "04a74999-41e1-419e-a48b-bb3a40101f32",
+  "privateEndpointConnections": [],
+  "queuedTime": "7/17/2024 7:37:42 PM",
+  "requestId": "04a74999-41e1-419e-a48b-bb3a40101f32",
+  "requestType": "ExportDatabase",
+  "serverName": "velo-py-mssql",
+  "status": "Completed",
+  "type": "Microsoft.Sql/servers/databases/importExportOperationResults"
+}</pre>
 
 ## Restore log:
-<pre></pre>
+<pre>{
+  "blobUri": "https://velomystorageaccount.blob.core.windows.net/dbbackup/velo-py-db_backup_20240717164109.bacpac",
+  "databaseName": "velo-py-db",
+  "errorMessage": null,
+  "id": "1e99b62c-5ddf-43c8-9ffb-0bc024d7aeb5",
+  "lastModifiedTime": "7/17/2024 7:48:12 PM",
+  "name": "1e99b62c-5ddf-43c8-9ffb-0bc024d7aeb5",
+  "privateEndpointConnections": [],
+  "queuedTime": "7/17/2024 7:45:51 PM",
+  "requestId": "1e99b62c-5ddf-43c8-9ffb-0bc024d7aeb5",
+  "requestType": "ImportToExistingDatabase",
+  "serverName": "velo-py-mssql",
+  "status": "Completed",
+  "type": "Microsoft.Sql/servers/databases/importExportOperationResults"
+}</pre>
