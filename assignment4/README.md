@@ -44,3 +44,9 @@ Automate the backup and restore process for an Azure SQL Database using Azure CL
 # *  *  *  *  * user-name command to be executed</pre>
 - Example to run a backup every day at 10PM:
 - `00 10 * * * azuser python backup.py --action RESTORE --resource_group RESOURCE_GROUP --server_name SERVER_NAME --database_name DATABASE_NAME --storage_account_name STORAGE_ACCOUNT_NAME --container_name CONTAINER_NAME --storage_account_key STORAGE_ACCOUNT_KEY --backup_file_name BACKUP_FILE_NAME --admin_user ADMIN_USER --admin_password ADMIN_PASSWORD`
+
+## Backup log:
+<pre></pre>
+
+## Restore log:
+<pre></pre>

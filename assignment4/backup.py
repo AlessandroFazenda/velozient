@@ -110,6 +110,6 @@ if __name__ == "__main__":
     elif action.lower() == 'restore':
         restore_backup()
     elif action.lower() == 'list':
-        list_backup()
+        list_backups()
     else:
         logging.info(f'Unknown action: {action}')
